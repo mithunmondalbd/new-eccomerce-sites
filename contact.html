@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Ecoomerce project for making this Mithun express">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Ecoomerce Project</title>
+</head>
+<body>
+    <!-- navbar starts here  -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link">
+                    <img class="profile-icon" src="image/mithun.jpg" alt="profile icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_brand nav_list">Mithun Express</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" class="nav_list">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 product - $124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+     <!-- navbar ends here  -->
+        <main>
+            <section class="contact-section">
+                <h2 class="section-title text-center">Contact Us</h2>
+                <div class="contact-container flex-center">
+                    <form action="" class="form card">
+                        <div class="form-control flex-center">
+                            <label for="name" >Name</label>
+                            <input type="text" id="name" required autocomplete="name">
+                        </div>
+                        <div class="form-control flex-center">
+                            <label for="email" >Email</label>
+                            <input type="email" id="email" required autocomplete="email">
+                        </div>
+                        <div class="form-control flex-center">
+                            <label for="message" >Message</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                        <div class="form-control flex-center form-btn-field">
+                            <button type="submit" class="btn contact-btn">submit</button>
+                        </div>
+                    </form>
+                    <div class="contact-address flex-space-around">
+                        <address>
+                            <h4>Address:</h4>
+                            <p>Jalan pjs 10/11, methari court</p>
+                            <p>Selangor, Malayshia</p>
+                            <br>
+                            <span>Call:</span>
+                            <a href="tel;+0182982177">+60182982177</a>
+                        </address>
+                        <iframe class="contact-map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.049942360113!2d101.60834491426282!3d3.0813445544262343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c79786375bb%3A0xc3ff3efd41393d0!2sMentari%20Court%2C%20Ss%2010%2C%2046150%20Petaling%20Jaya%2C%20Selangor!5e0!3m2!1sen!2smy!4v1675073495848!5m2!1sen!2smy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+     <!-- footer starts here -->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">subscribe</button>
+        </div>
+        <div>
+            <p>&copy: Copyright 2023 Mithun Express. All right reservedr</p>
+        </div>
+     </footer>
+     <!-- footer ends here -->
+     <script src="scripts/index.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

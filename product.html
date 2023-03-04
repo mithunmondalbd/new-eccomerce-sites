@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Ecoomerce project for making this Mithun express">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Ecoomerce Project</title>
+</head>
+<body>
+    <!-- navbar starts here  -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" class="nav_link">Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link">
+                    <img class="profile-icon" src="image/mithun.jpg" alt="profile icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_brand nav_list">Mithun Express</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" class="nav_list">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 product - $124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+     <!-- navbar ends here  -->
+     <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product_detils-left flex-center">
+                    <img src="image/tv.jpg" alt="smart TV">
+                </div>
+                <div class="product_detils-right">
+                    <h3 class="product-name">Sony Commercial- TV</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot black"></span>
+                                <span class="dot red"></span>
+                            </p>
+                            <p class="product_description">
+                                <strong>Description:</strong>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque harum corporis assumenda libero consectetur voluptatibus ullam ducimus optio, nisi aliquid voluptatem animi. Autem ut repellendus fuga atque ipsa, illum delectus!
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque harum corporis assumenda libero consectetur voluptatibus ullam ducimus optio, nisi aliquid voluptatem animi. Autem ut repellendus fuga atque ipsa, illum delectus!
+                            </p>
+                            <p class="product_description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque harum corporis assumenda libero consectetur voluptatibus ullam ducimus optio, nisi aliquid voluptatem animi. Autem ut repellendus fuga atque ipsa, illum delectus!
+                            </p>
+                            <h4 class="product_Categorey">
+                                Categorey: LED-TV</h4>
+                            <h4 class="product_price">Price: $680.99</h4>
+                                <p class="product-rating">Rating: 4.5/5</p>
+                                <button class="btn product_button">Add To Cart</button>
+                                <button class="btn product_button">Back To Shopping</button>
+                </div>
+            </section>
+        </div>
+     </main>
+
+     <!-- footer starts here -->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">subscribe</button>
+        </div>
+        <div>
+            <p>&copy: Copyright 2023 Mithun Express. All right reservedr</p>
+        </div>
+     </footer>
+     <!-- footer ends here -->
+     <script src="scripts/index.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
